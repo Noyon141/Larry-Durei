@@ -1,0 +1,161 @@
+{
+  "Metadata": {
+    "title": "Larry Durei | Advogado de Direito Imobiliário e Notarial em Lisboa",
+    "description": "Escritório de advocacia especializado em Direito Imobiliário, Auditoria de Imóveis, Escrituras Notariais, Sucessões e Proteção Jurídica a Investidores em Lisboa, Portugal."
+  },
+  "Nav": {
+    "practiceAreas": "Áreas de Prática",
+    "whyLarry": "Diferenciais",
+    "process": "Roteiro de Aquisição",
+    "reviews": "Avaliações",
+    "contact": "Escritório na Av. da Liberdade",
+    "bookConsult": "Agendar Consulta",
+    "callNow": "Contacto Direto"
+  },
+  "Hero": {
+    "badge": "Ordem dos Advogados Portugueses · Cédula Nº 44324L",
+    "titleLine1": "Proteção Rigorosa nos Seus Investimentos Imobiliários",
+    "titleLine2": "Em Portugal Com Precisão Jurídica.",
+    "subtitle": "Acompanhamento jurídico completo no Direito Imobiliário português: due diligence, verificação fiscal, contratos promessa e escrituras notariais. Apoio multilingue em Inglês, Alemão e Português.",
+    "ctaPrimary": "Solicitar Consulta Imobiliária",
+    "ctaSecondary": "Ver Áreas de Atuação",
+    "stat1Value": "+150M€",
+    "stat1Label": "Em Transações Imobiliárias Seguras",
+    "stat2Value": "100%",
+    "stat2Label": "Taxa de Regularização de Títulos",
+    "stat3Value": "3",
+    "stat3Label": "Idiomas Fluentes (EN/DE/PT)",
+    "lisbonTag": "Av. da Liberdade 3, 3º, Lisboa"
+  },
+  "Credentials": {
+    "barAssoc": "Advogado Inscrito na Ordem dos Advogados",
+    "licence": "Cédula Profissional Nº 44324L",
+    "languages": "Representação Multilingue (Português / Inglês / Alemão)",
+    "location": "Escritório na Avenida da Liberdade",
+    "notaryDirect": "Integração Notarial e Registo Predial"
+  },
+  "PainPoints": {
+    "tagline": "Matriz de Risco no Imobiliário em Portugal",
+    "title": "Por que Comprar ou Vender Imóveis em Portugal Exige Proteção Jurídica Independente",
+    "subtitle": "As transações em Portugal regem-se por prazos contratuais rígidos. Sem uma auditoria jurídica independente às certidões e ónus fiscais, o comprador assume riscos elevados.",
+    "card1Title": "Dívidas e Ónus Não Registados",
+    "card1Desc": "Em Portugal, dívidas fiscais ou penhoras podem incidir sobre o imóvel. Sem auditoria rigorosa do registo predial, o comprador corre o risco de herdar encargos financeiros.",
+    "card2Title": "Obras Sem Licença e Armadilhas Urbanísticas",
+    "card2Desc": "Alterações sem licença de utilização da Câmara Municipal podem inviabilizar a revenda ou resultar em ordens de demolição.",
+    "card3Title": "Riscos no CPCV (Contrato Promessa)",
+    "card3Desc": "O incumprimento de um CPCV implica a perda da totalidade do sinal prestado ou a devolução em dobro.",
+    "card4Title": "Barreiras Linguísticas e Notariais",
+    "card4Desc": "As escrituras notariais possuem validade legal em português. Contar com um advogado fluente em Inglês, Alemão e Português garante total clareza jurídica."
+  },
+  "Expertise": {
+    "tagline": "Advocacia Especializada",
+    "title": "Áreas de Atuação e Soluções Jurídicas",
+    "subtitle": "Proteção jurídica integral para aquisições imobiliárias, estruturações empresariais e processos sucessórios em Lisboa e em todo o território nacional.",
+    "realEstate": {
+      "title": "Direito Imobiliário e Aquisições",
+      "desc": "Acompanhamento jurídico integral na compra e venda de imóveis residenciais, comerciais e de luxo.",
+      "detail": "Da auditoria prévia (due diligence) à elaboração do Contrato Promessa de Compra e Venda (CPCV), verificação da Licença de Utilização e celebração da Escritura Pública."
+    },
+    "notarial": {
+      "title": "Direito Registo e Notarial",
+      "desc": "Representação direta perante cartórios notariais e Conservatórias do Registo Predial.",
+      "detail": "Obtenção de NIF, representação fiscal, cálculo e liquidação de IMT e Imposto de Selo, e registo definitivo de propriedade."
+    },
+    "succession": {
+      "title": "Direito das Sucessões e Partilhas",
+      "desc": "Planeamento sucessório, partilhas e transmissão de património imobiliário nacional e internacional.",
+      "detail": "Aplicação dos regulamentos europeus de sucessão, liquidação de imposto do selo sobre sucessões e partilha judicial/extrajudicial."
+    },
+    "debt": {
+      "title": "Cobrança de Dívidas Judiciais",
+      "desc": "Recuperação de créditos imobiliários, rendas não pagas e indemnizações por incumprimento contratual.",
+      "detail": "Injunções, procedimentos de cobrança e penhora de bens ao abrigo do Código de Processo Civil português."
+    },
+    "executive": {
+      "title": "Direito Executivo e Penhoras",
+      "desc": "Representação em processos executivos, vendas judiciais e leilões de imóveis.",
+      "detail": "Proteção dos direitos de credores e apoio na aquisição de imóveis em processos de execução fiscal ou judicial."
+    },
+    "commercial": {
+      "title": "Direito Comercial e Societário",
+      "desc": "Constituição de sociedades imobiliárias, veículos de investimento (SPVs) e arrendamento comercial.",
+      "detail": "Constituição de empresas (Lda ou S.A.), cessão de quotas, e elaboração de contratos de arrendamento para estabelecimentos comerciais."
+    },
+    "public": {
+      "title": "Direito da Contratação Pública",
+      "desc": "Apoio em regulamentos de urbanismo, concursos públicos e licenciamentos municipais.",
+      "detail": "Interpretação de planos diretores municipais (PDM) e licenciamentos junto da Câmara Municipal de Lisboa."
+    },
+    "modalButton": "Ver Detalhes Jurídicos",
+    "closeModal": "Fechar Janela"
+  },
+  "Process": {
+    "tagline": "Execução Metódica",
+    "title": "Roteiro em 4 Etapas na Compra do Imóvel",
+    "subtitle": "Como o Dr. Larry Durei protege o seu investimento desde a auditoria inicial até à entrega das chaves.",
+    "step1Number": "01",
+    "step1Title": "Due Diligence e Auditoria de Títulos",
+    "step1Desc": "Exame minucioso da Caderneta Predial, Certidão do Registo Predial, Licença de Utilização e Certificado Energético.",
+    "step2Number": "02",
+    "step2Title": "Minuta de CPCV e Proteção do Sinal",
+    "step2Desc": "Redação do Contrato Promessa de Compra e Venda com cláusulas de salvaguarda do sinal contra incumprimentos.",
+    "step3Number": "03",
+    "step3Title": "Liquidação de Impostos (IMT/Selo)",
+    "step3Desc": "Cálculo e emissão das guias de IMT e Imposto de Selo, preparação da documentação para a escritura pública.",
+    "step4Number": "04",
+    "step4Title": "Escritura Pública e Registo Predial",
+    "step4Desc": "Representação presencial e tradução juramentada no Cartório Notarial, seguida do registo definitivo na Conservatória."
+  },
+  "Reviews": {
+    "tagline": "Resultados Comprovados",
+    "title": "O Que Dizem os Clientes Sobre o Dr. Larry Durei",
+    "subtitle": "Testemunhos reais de compradores, investidores e proprietários em Portugal.",
+    "filterAll": "Todas as Avaliações",
+    "filterForeign": "Compradores Internacionais",
+    "filterGerman": "Clientes de Língua Alemã",
+    "filterUrgent": "Atendimento Rápido",
+    "readMore": "Avaliação Verificada no Google"
+  },
+  "Location": {
+    "tagline": "Localização de Prestígio em Lisboa",
+    "title": "Escritório na Av. da Liberdade",
+    "subtitle": "No coração do centro financeiro e imobiliário de Lisboa.",
+    "addressTitle": "Endereço do Escritório",
+    "address": "Av. da Liberdade 3, 3º andar, sala 1\n1250-139 Lisboa, Portugal",
+    "phoneTitle": "Telefone Direto / WhatsApp",
+    "phone": "+351 961 127 361",
+    "emailTitle": "E-mail Oficial OA",
+    "email": "Larrydurei-44324L@adv.oa.pt",
+    "hoursTitle": "Horário de Atendimento",
+    "hours": "Segunda a Sexta: 09:00 - 19:00 WET\nDisponibilidade para casos urgentes"
+  },
+  "LeadForm": {
+    "title": "Agende uma Consulta Jurídica Confidencial",
+    "subtitle": "Atendimento direto por um advogado experiente. Rigoroso, célere e adaptado à sua transação.",
+    "nameLabel": "Nome Completo",
+    "namePlaceholder": "ex: Laura deJong",
+    "emailLabel": "Endereço de E-mail",
+    "emailPlaceholder": "ex: laura@example.com",
+    "phoneLabel": "Telefone / WhatsApp",
+    "phonePlaceholder": "+351 912 345 678",
+    "stageLabel": "Fase da Transação Imobiliária",
+    "stageOption1": "Em Procura de Imóvel em Lisboa / Portugal",
+    "stageOption2": "CPCV Pendente / Necessita de Análise Jurídica",
+    "stageOption3": "Venda de Imóvel / Apoio Jurídico ao Proprietário",
+    "stageOption4": "Partilha / Herança / Sociedade Imobiliária",
+    "stageOption5": "Outro Assunto Jurídico",
+    "messageLabel": "Resumo do Caso / Dúvidas Específicas",
+    "messagePlaceholder": "Descreva os prazos da sua compra, dúvidas sobre o imóvel...",
+    "submitBtn": "Solicitar Consulta Confidencial",
+    "submitting": "A enviar dados ao Dr. Larry Durei...",
+    "successTitle": "Pedido de Consulta Recebido",
+    "successMessage": "Obrigado. O Dr. Larry Durei analisará pessoalmente o seu caso e entrará em contacto brevemente."
+  },
+  "Footer": {
+    "firmName": "Larry Durei — Advogado de Direito Imobiliário",
+    "registration": "Inscrito na Ordem dos Advogados Portugueses — Cédula Profissional Nº 44324L",
+    "rights": "Todos os direitos reservados. Serviços jurídicos prestados em Lisboa, Portugal.",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço Jurídico"
+  }
+}

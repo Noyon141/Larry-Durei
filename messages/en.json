@@ -1,0 +1,161 @@
+{
+  "Metadata": {
+    "title": "Larry Durei | Real Estate & Notarial Lawyer in Lisbon, Portugal",
+    "description": "Premier real estate law firm in Lisbon, Portugal. Specialized in property acquisition due diligence, notary deeds, tax safeguards, succession, and foreign investor legal protection."
+  },
+  "Nav": {
+    "practiceAreas": "Practice Areas",
+    "whyLarry": "Why Larry",
+    "process": "Acquisition Roadmap",
+    "reviews": "Client Reviews",
+    "contact": "Av. da Liberdade Office",
+    "bookConsult": "Schedule Private Consult",
+    "callNow": "Direct Line"
+  },
+  "Hero": {
+    "badge": "Ordem dos Advogados Reg. Nº 44324L · Lisbon, Portugal",
+    "titleLine1": "Protecting Your Real Estate Investments in Portugal",
+    "titleLine2": "With Unwavering Legal Precision.",
+    "subtitle": "Navigating complex Portuguese property laws, due diligence, tax structures, and notarials. Multilingual legal representation in English, German, and Portuguese for international investors & home buyers.",
+    "ctaPrimary": "Request Property Legal Consult",
+    "ctaSecondary": "Explore Practice Areas",
+    "stat1Value": "€150M+",
+    "stat1Label": "Real Estate Deals Secured",
+    "stat2Value": "100%",
+    "stat2Label": "Title & Lien Clear Rate",
+    "stat3Value": "3",
+    "stat3Label": "Fluent Languages (EN/DE/PT)",
+    "lisbonTag": "Av. da Liberdade 3, 3º, Lisbon"
+  },
+  "Credentials": {
+    "barAssoc": "Ordem dos Advogados Certified",
+    "licence": "License Nº 44324L",
+    "languages": "Multilingual Representation (EN / DE / PT)",
+    "location": "Avenida da Liberdade Law Office",
+    "notaryDirect": "Direct Notary & Land Registry Integration"
+  },
+  "PainPoints": {
+    "tagline": "The Risk Matrix in Portuguese Real Estate",
+    "title": "Why Buying or Selling Property in Portugal Demands Independent Legal Protection",
+    "subtitle": "Portuguese property deals operate on strict contractual deadlines (CPCV). Without an independent lawyer auditing municipal records and tax encumbrances, buyers face severe risks.",
+    "card1Title": "Unregistered Debts & Encumbrances",
+    "card1Desc": "In Portugal, debts and mortgages attach to the property deed. Without deep municipal registry audits, you could inherit millions in unpaid taxes or bank liens.",
+    "card2Title": "Illegal Alterations & Licensing Traps",
+    "card2Desc": "Renovations without municipal licenses (Câmara Municipal) can render a luxury Lisbon property un-resellable or subject to demolition orders.",
+    "card3Title": "CPCV Penalty Risks",
+    "card3Desc": "Under Portuguese law, defaulting on a Promissory Contract (CPCV) can result in losing 100% of your deposit or double penalty damages.",
+    "card4Title": "Language & Notary Barriers",
+    "card4Desc": "Notarial deeds (Escritura) are legally binding only in Portuguese. Having a lawyer fluent in English, German, and Portuguese prevents misinterpretation."
+  },
+  "Expertise": {
+    "tagline": "Specialized Legal Counsel",
+    "title": "Practice Areas & Legal Solutions",
+    "subtitle": "Comprehensive protection tailored for real estate transactions, corporate acquisitions, and estate inheritance in Lisbon and across Portugal.",
+    "realEstate": {
+      "title": "Real Estate Law & Acquisitions",
+      "desc": "Full-scope legal management of residential, commercial, and luxury property purchases across Lisbon, Cascais, and the Algarve.",
+      "detail": "From pre-purchase due diligence to negotiating the Promissory Contract (CPCV), verifying Habitation Licenses (Licença de Utilização), energy certificates, and executing the deed (Escritura Público)."
+    },
+    "notarial": {
+      "title": "Registration & Notarial Law",
+      "desc": "Official representation at Portuguese notary offices and permanent land registry (Conservatória do Registo Predial).",
+      "detail": "Handling NIF fiscal representation, bank account authorization, property tax (IMT and Stamp Duty) calculations, and title registration."
+    },
+    "succession": {
+      "title": "Law of Succession & Estate Planning",
+      "desc": "Cross-border inheritance, estate planning, and property transfer management for international families.",
+      "detail": "Navigating European succession regulations (EU Regulation 650/2012), Portuguese inheritance taxes, and complex multi-heir estate distribution."
+    },
+    "debt": {
+      "title": "Court-Ordered Debt Collection",
+      "desc": "Legal recovery of real estate claims, unpaid lease contracts, and contractual breach damages.",
+      "detail": "Initiating judicial order proceedings, asset freezing, and enforcement actions under Portuguese civil procedure law."
+    },
+    "executive": {
+      "title": "Executive Law & Foreclosures",
+      "desc": "Representation in judicial auctions, mortgage foreclosures, and asset execution proceedings.",
+      "detail": "Protecting creditor rights or acquiring distress real estate assets through official judicial sale channels."
+    },
+    "commercial": {
+      "title": "Commercial & Corporate Law",
+      "desc": "Real estate holding creation, SPV structuring, and corporate lease negotiations.",
+      "detail": "Establishing Portuguese commercial companies (Lda or S.A.), share transfer agreements, and commercial tenancy agreements."
+    },
+    "public": {
+      "title": "Public Procurement Law",
+      "desc": "Guidance on municipal zoning regulations, public tenders, and municipal licensing.",
+      "detail": "Interfacing with Lisbon City Hall (Câmara Municipal de Lisboa) for urban rehabilitation approvals and municipal zoning compliance."
+    },
+    "modalButton": "Read Detailed Legal Scope",
+    "closeModal": "Close Window"
+  },
+  "Process": {
+    "tagline": "Clear & Methodical Execution",
+    "title": "The 4-Stage Property Acquisition Roadmap",
+    "subtitle": "How Larry Durei safeguards your investment from initial contract to final key handover.",
+    "step1Number": "01",
+    "step1Title": "Due Diligence & Title Audit",
+    "step1Desc": "Exhaustive verification of the Caderneta Predial (tax card), Certidão do Registo Predial (title certificate), Licença de Utilização, and energy certificate to ensure 100% clean legal standing.",
+    "step2Number": "02",
+    "step2Title": "CPCV Drafting & Deposit Protection",
+    "step2Desc": "Drafting and negotiating the Promissory Purchase Agreement (CPCV) with tailored clauses protecting your deposit against seller defaults or title defects.",
+    "step3Number": "03",
+    "step3Title": "Tax Settlement & Pre-Deed Audits",
+    "step3Desc": "Calculating and submitting Municipal Property Transfer Tax (IMT) and Stamp Duty (Imposto de Selo), arranging fiscal numbers (NIF), and preparing notary filings.",
+    "step4Number": "04",
+    "step4Title": "Escritura (Deed) & Land Registration",
+    "step4Desc": "Live representation and official translation at the Notary Office during deed execution, followed by mandatory registration at the Conservatória do Registo Predial."
+  },
+  "Reviews": {
+    "tagline": "Proven Track Record",
+    "title": "What Clients Say About Working With Larry",
+    "subtitle": "Authentic Google reviews from international home buyers, real estate investors, and property sellers in Portugal.",
+    "filterAll": "All Reviews",
+    "filterForeign": "International Buyers",
+    "filterGerman": "German Speaking",
+    "filterUrgent": "Responsive Service",
+    "readMore": "Verified Google Review"
+  },
+  "Location": {
+    "tagline": "Lisbon Prime Location",
+    "title": "Av. da Liberdade Law Office",
+    "subtitle": "Located in the heart of Lisbon's prestigious financial and luxury district.",
+    "addressTitle": "Office Address",
+    "address": "Av. da Liberdade 3, 3º andar, sala 1\n1250-139 Lisboa, Portugal",
+    "phoneTitle": "Direct Phone / WhatsApp",
+    "phone": "+351 961 127 361",
+    "emailTitle": "Official OA Email",
+    "email": "Larrydurei-44324L@adv.oa.pt",
+    "hoursTitle": "Consultation Hours",
+    "hours": "Monday - Friday: 09:00 - 19:00 WET\nEmergency Holiday Contact Available"
+  },
+  "LeadForm": {
+    "title": "Schedule a Private Real Estate Legal Consultation",
+    "subtitle": "Direct counsel from an experienced lawyer. Confidential, prompt, and tailored to your transaction.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "e.g. Bret Icenogle",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "e.g. bret@example.com",
+    "phoneLabel": "Phone / WhatsApp",
+    "phonePlaceholder": "+351 or International Number",
+    "stageLabel": "Property Stage",
+    "stageOption1": "Searching for Property in Lisbon / Portugal",
+    "stageOption2": "CPCV Contract Pending / Review Needed",
+    "stageOption3": "Property Sale / Disposal Legal Support",
+    "stageOption4": "Inheritance / Succession / Corporate Real Estate",
+    "stageOption5": "Other Legal Advice",
+    "messageLabel": "Case Brief / Specific Concerns",
+    "messagePlaceholder": "Tell us about your property timeline, concerns, or location...",
+    "submitBtn": "Request Confidential Consult",
+    "submitting": "Transmitting to Larry Durei...",
+    "successTitle": "Consultation Request Received",
+    "successMessage": "Thank you. Larry Durei will personally review your details and respond promptly via phone or email."
+  },
+  "Footer": {
+    "firmName": "Larry Durei — Advogado / Real Estate Lawyer",
+    "registration": "Inscrito na Ordem dos Advogados Portugueses — Cédula Profissional Nº 44324L",
+    "rights": "All rights reserved. Professional legal services in Lisbon, Portugal.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Legal Service"
+  }
+}
