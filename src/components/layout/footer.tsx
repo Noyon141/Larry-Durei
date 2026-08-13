@@ -1,11 +1,18 @@
 'use client';
 
-import { Mail, MapPin, Phone, ShieldCheck } from 'lucide-react';
+import { Cookie, Mail, MapPin, Phone, ShieldCheck } from 'lucide-react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 export function Footer() {
   const t = useTranslations('Footer');
+
+  const handleOpenCookieModal = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('open-cookie-settings'));
+    }
+  };
 
   return (
     <footer className="bg-[#070A0F] border-t border-[#C5A059]/20 text-[#8E9AAF] py-16">
@@ -87,16 +94,24 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Rights */}
+        {/* Bottom Rights & GDPR Links */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <p>
             © {new Date().getFullYear()} Larry Durei. {t('rights')}
           </p>
-          <div className="flex items-center gap-6">
-            <a href="#" className="hover:text-[#F8F6F0] transition-colors">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
+            <button
+              type="button"
+              onClick={handleOpenCookieModal}
+              className="hover:text-[#E6C875] transition-colors flex items-center gap-1.5 cursor-pointer text-left"
+            >
+              <Cookie className="w-3.5 h-3.5 text-[#C5A059]" />
+              <span>{t('cookieSettings')}</span>
+            </button>
+            <a href="#consult-form" className="hover:text-[#F8F6F0] transition-colors">
               {t('privacy')}
             </a>
-            <a href="#" className="hover:text-[#F8F6F0] transition-colors">
+            <a href="#consult-form" className="hover:text-[#F8F6F0] transition-colors">
               {t('terms')}
             </a>
           </div>

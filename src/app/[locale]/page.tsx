@@ -9,6 +9,7 @@ import { PainPointsSection } from '@/components/sections/pain-points';
 import { ProcessTimeline } from '@/components/sections/process-timeline';
 import { ReviewsSection } from '@/components/sections/reviews-section';
 import { TrustBadges } from '@/components/sections/trust-badges';
+import { CookieBanner } from '@/components/ui/cookie-banner';
 
 export default async function HomePage() {
   return (
@@ -24,6 +25,7 @@ export default async function HomePage() {
       <LocationSection />
       <LeadCTASection />
       <Footer />
+      <CookieBanner />
     </main>
   );
 }

@@ -178,11 +178,25 @@
     "successTitle": "Consultation Request Received",
     "successMessage": "Thank you. Larry Durei will personally review your details and respond promptly via phone or email."
   },
+  "CookieConsent": {
+    "title": "GDPR Privacy & Cookie Preferences",
+    "description": "We use essential cookies for website functionality, security, and locale routing. With your consent, we also use analytical cookies to improve user experience in accordance with EU GDPR (EU 2016/679) & Portuguese Lei 41/2004.",
+    "acceptAll": "Accept All Cookies",
+    "rejectOptional": "Reject Non-Essential",
+    "customize": "Cookie Settings",
+    "savePreferences": "Save Privacy Preferences",
+    "necessaryTitle": "Strictly Necessary Cookies",
+    "necessaryDesc": "Required for site security, locale routing, and session navigation. Cannot be disabled.",
+    "analyticsTitle": "Analytics & Performance",
+    "analyticsDesc": "Allows us to measure website traffic and improve legal service delivery.",
+    "badge": "EU GDPR Compliant"
+  },
   "Footer": {
     "firmName": "Larry Durei — Advogado / Real Estate Lawyer",
     "registration": "Inscrito na Ordem dos Advogados Portugueses — Cédula Profissional Nº 44324L",
     "rights": "All rights reserved. Professional legal services in Lisbon, Portugal.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Legal Service"
+    "terms": "Terms of Legal Service",
+    "cookieSettings": "Cookie Preferences"
   }
 }

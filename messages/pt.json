@@ -178,11 +178,25 @@
     "successTitle": "Pedido de Consulta Recebido",
     "successMessage": "Obrigado. O Dr. Larry Durei analisará pessoalmente o seu caso e entrará em contacto brevemente."
   },
+  "CookieConsent": {
+    "title": "Privacidade RGPD e Preferências de Cookies",
+    "description": "Utilizamos cookies essenciais para o funcionamento, segurança e navegação no website. Com o seu consentimento, utilizamos também cookies analíticos para otimizar a experiência nos termos do RGPD (UE 2016/679) e da Lei 41/2004.",
+    "acceptAll": "Aceitar Todos os Cookies",
+    "rejectOptional": "Recusar Não Essenciais",
+    "customize": "Definições de Cookies",
+    "savePreferences": "Guardar Preferências",
+    "necessaryTitle": "Cookies Estritamente Necessários",
+    "necessaryDesc": "Indispensáveis para a segurança, navegação e idioma do website. Não podem ser desativados.",
+    "analyticsTitle": "Cookies Analíticos e Desempenho",
+    "analyticsDesc": "Permitem analisar o tráfego do website e melhorar o atendimento jurídico prestado.",
+    "badge": "Conforme o RGPD União Europeia"
+  },
   "Footer": {
     "firmName": "Larry Durei — Advogado de Direito Imobiliário",
     "registration": "Inscrito na Ordem dos Advogados Portugueses — Cédula Profissional Nº 44324L",
     "rights": "Todos os direitos reservados. Serviços jurídicos prestados em Lisboa, Portugal.",
     "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço Jurídico"
+    "terms": "Termos de Serviço Jurídico",
+    "cookieSettings": "Preferências de Cookies"
   }
 }
