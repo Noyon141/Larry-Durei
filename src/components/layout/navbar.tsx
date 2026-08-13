@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { useLocale, useTranslations } from 'next-intl';
-import { Menu, Phone, Scale, X } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Menu, Phone, Scale, X } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 
 export function Navbar() {
   const t = useTranslations('Nav');
@@ -11,7 +11,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeLocale, setActiveLocale] = useState<'en' | 'pt'>(
-    contextLocale === 'pt' ? 'pt' : 'en'
+    contextLocale === 'en' ? 'en' : 'pt',
   );
 
   useEffect(() => {
@@ -22,33 +22,51 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Sync active locale with current URL path
+  // Sync active locale with current URL path (default to pt)
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const isPt = window.location.pathname.startsWith('/pt');
-      setActiveLocale(isPt ? 'pt' : 'en');
+      const isEn = window.location.pathname.startsWith('/en');
+      setActiveLocale(isEn ? 'en' : 'pt');
     }
   }, [contextLocale]);
 
   const switchLocale = (targetLocale: 'en' | 'pt') => {
     const currentPath = typeof window !== 'undefined' ? window.location.pathname : '/';
-    const isCurrentlyPt = currentPath.startsWith('/pt');
-    const currentActive = isCurrentlyPt ? 'pt' : 'en';
+    const isCurrentlyEn = currentPath.startsWith('/en');
+    const currentActive = isCurrentlyEn ? 'en' : 'pt';
 
     if (targetLocale === currentActive) return;
 
     // Strip current locale prefix (/en or /pt)
     const pathWithoutLocale = currentPath.replace(/^\/(en|pt)(\/|$)/, '/');
-    const cleanPath = pathWithoutLocale.startsWith('/') ? pathWithoutLocale : `/${pathWithoutLocale}`;
+    const cleanPath = pathWithoutLocale.startsWith('/')
+      ? pathWithoutLocale
+      : `/${pathWithoutLocale}`;
     const hash = typeof window !== 'undefined' ? window.location.hash || '' : '';
-    
+
     const newUrl = `/${targetLocale}${cleanPath === '/' ? '' : cleanPath}${hash}`;
-    
+
     // Direct location navigation triggers full server-side locale layout re-hydration
     window.location.href = newUrl;
   };
 
+  const handleMobileNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    setMobileMenuOpen(false);
+
+    // Allow drawer unmount animation before smooth scrolling to target ID
+    setTimeout(() => {
+      const targetElement = document.querySelector(href);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        window.location.hash = href;
+      }
+    }, 120);
+  };
+
   const navItems = [
+    { label: t('about'), href: '#about' },
     { label: t('practiceAreas'), href: '#expertise' },
     { label: t('whyLarry'), href: '#pain-points' },
     { label: t('process'), href: '#process' },
@@ -97,17 +115,6 @@ export function Navbar() {
           <div className="flex items-center bg-[#121824] border border-[#C5A059]/40 rounded-full p-1 text-xs shrink-0 shadow-inner">
             <button
               type="button"
-              onClick={() => switchLocale('en')}
-              className={`px-3 py-1 rounded-full font-bold transition-all cursor-pointer ${
-                activeLocale === 'en'
-                  ? 'bg-gradient-to-r from-[#E6C875] to-[#C5A059] text-[#0B0F17] shadow-md ring-1 ring-[#E6C875]'
-                  : 'text-[#C2C9D6] hover:text-[#F8F6F0] hover:bg-[#182030]'
-              }`}
-            >
-              EN
-            </button>
-            <button
-              type="button"
               onClick={() => switchLocale('pt')}
               className={`px-3 py-1 rounded-full font-bold transition-all cursor-pointer ${
                 activeLocale === 'pt'
@@ -116,6 +123,17 @@ export function Navbar() {
               }`}
             >
               PT
+            </button>
+            <button
+              type="button"
+              onClick={() => switchLocale('en')}
+              className={`px-3 py-1 rounded-full font-bold transition-all cursor-pointer ${
+                activeLocale === 'en'
+                  ? 'bg-gradient-to-r from-[#E6C875] to-[#C5A059] text-[#0B0F17] shadow-md ring-1 ring-[#E6C875]'
+                  : 'text-[#C2C9D6] hover:text-[#F8F6F0] hover:bg-[#182030]'
+              }`}
+            >
+              EN
             </button>
           </div>
 
@@ -142,17 +160,6 @@ export function Navbar() {
           <div className="flex items-center bg-[#121824] border border-[#C5A059]/40 rounded-full p-1 text-xs shrink-0 shadow-inner">
             <button
               type="button"
-              onClick={() => switchLocale('en')}
-              className={`px-2.5 py-1 rounded-full font-bold cursor-pointer transition-all ${
-                activeLocale === 'en'
-                  ? 'bg-gradient-to-r from-[#E6C875] to-[#C5A059] text-[#0B0F17] shadow-sm'
-                  : 'text-[#C2C9D6] hover:text-[#F8F6F0]'
-              }`}
-            >
-              EN
-            </button>
-            <button
-              type="button"
               onClick={() => switchLocale('pt')}
               className={`px-2.5 py-1 rounded-full font-bold cursor-pointer transition-all ${
                 activeLocale === 'pt'
@@ -161,6 +168,17 @@ export function Navbar() {
               }`}
             >
               PT
+            </button>
+            <button
+              type="button"
+              onClick={() => switchLocale('en')}
+              className={`px-2.5 py-1 rounded-full font-bold cursor-pointer transition-all ${
+                activeLocale === 'en'
+                  ? 'bg-gradient-to-r from-[#E6C875] to-[#C5A059] text-[#0B0F17] shadow-sm'
+                  : 'text-[#C2C9D6] hover:text-[#F8F6F0]'
+              }`}
+            >
+              EN
             </button>
           </div>
           <button
@@ -187,8 +205,8 @@ export function Navbar() {
                 <a
                   key={item.href}
                   href={item.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="text-base font-serif font-medium text-[#F8F6F0] hover:text-[#C5A059] py-1 border-b border-[#182030]"
+                  onClick={(e) => handleMobileNavClick(e, item.href)}
+                  className="text-base font-serif font-medium text-[#F8F6F0] hover:text-[#C5A059] py-1 border-b border-[#182030] cursor-pointer"
                 >
                   {item.label}
                 </a>
@@ -202,8 +220,8 @@ export function Navbar() {
               </a>
               <a
                 href="#consult-form"
-                onClick={() => setMobileMenuOpen(false)}
-                className="w-full text-center py-3 text-sm font-bold text-[#0B0F17] bg-gradient-to-r from-[#E6C875] to-[#C5A059] rounded-xl shadow-md"
+                onClick={(e) => handleMobileNavClick(e, '#consult-form')}
+                className="w-full text-center py-3 text-sm font-bold text-[#0B0F17] bg-gradient-to-r from-[#E6C875] to-[#C5A059] rounded-xl shadow-md cursor-pointer"
               >
                 {t('bookConsult')}
               </a>

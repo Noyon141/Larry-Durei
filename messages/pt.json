@@ -4,6 +4,7 @@
     "description": "Escritório de advocacia especializado em Direito Imobiliário, Auditoria de Imóveis, Escrituras Notariais, Sucessões e Proteção Jurídica a Investidores em Lisboa, Portugal."
   },
   "Nav": {
+    "about": "Sobre o Advogado",
     "practiceAreas": "Áreas de Prática",
     "whyLarry": "Diferenciais",
     "process": "Roteiro de Aquisição",
@@ -16,21 +17,47 @@
     "badge": "Ordem dos Advogados Portugueses · Cédula Nº 44324L",
     "titleLine1": "Proteção Rigorosa nos Seus Investimentos Imobiliários",
     "titleLine2": "Em Portugal Com Precisão Jurídica.",
-    "subtitle": "Acompanhamento jurídico completo no Direito Imobiliário português: due diligence, verificação fiscal, contratos promessa e escrituras notariais. Apoio multilingue em Inglês, Alemão e Português.",
+    "subtitle": "Acompanhamento jurídico completo no Direito Imobiliário português: due diligence, verificação fiscal, contratos promessa e escrituras notariais. Apoio multilingue em Inglês, Alemão, Neerlandês e Português.",
     "ctaPrimary": "Solicitar Consulta Imobiliária",
     "ctaSecondary": "Ver Áreas de Atuação",
     "stat1Value": "+150M€",
     "stat1Label": "Em Transações Imobiliárias Seguras",
     "stat2Value": "100%",
     "stat2Label": "Taxa de Regularização de Títulos",
-    "stat3Value": "3",
-    "stat3Label": "Idiomas Fluentes (EN/DE/PT)",
+    "stat3Value": "4",
+    "stat3Label": "Idiomas Fluentes (EN/DE/NL/PT)",
     "lisbonTag": "Av. da Liberdade 3, 3º, Lisboa"
+  },
+  "About": {
+    "tagline": "Perfil do Advogado",
+    "title": "Sobre o Dr. Larry Herbert Gershon Durei",
+    "subtitle": "Inscrito na Ordem dos Advogados Portugueses desde 2006. Percurso académico internacional na Holanda, Brasil e Portugal aliado a uma vasta experiência em Direito Imobiliário e Comercial.",
+    "badgeBar": "Advogado Inscrito · Ordem dos Advogados Portugueses (Desde 2006)",
+    "overviewText": "O Dr. Larry Durei é um advogado especialista em Direito Imobiliário e Societário com escritório na Avenida da Liberdade, em Lisboa. Fluente em Alemão, Neerlandês, Inglês e Português, presta assistência jurídica em transações imobiliárias de elevado valor, due diligence, partilhas e contratos comerciais.",
+    "expandBtn": "Ver Biografia Académica e Profissional Completa",
+    "collapseBtn": "Recolher Detalhes da Biografia",
+    "academicTitle": "Formação Académica e Graus",
+    "acad1": "Licenciatura em Direito — Faculdade de Direito da Universidade de Lisboa (2004), na vertente de Ciências Jurídico-Internacionais e Comunitárias.",
+    "acad2": "Programa de Intercâmbio Erasmus — Faculdade de Direito de Curitiba (Paraná, Brasil).",
+    "acad3": "Pós-Graduação em Direito do Ambiente — Faculdade de Direito da Universidade de Lisboa (2009).",
+    "acad4": "Mestrado em Direito das Empresas e dos Negócios — ISCTE-IUL Business School, Lisboa (2012).",
+    "careerTitle": "Experiência Profissional e Cargos",
+    "car1": "Consultor Jurídico e Fiscal — Departamento Jurídico e Fiscal da Câmara de Comércio e Indústria Luso-Alemã (AHK Portugal, 2004–2007).",
+    "car2": "Diretor do Departamento Jurídico — APAMB (Associação Portuguesa para a Inspeção e Prevenção Ambiental, 2007–2014).",
+    "car3": "Advogado Titular — Larry Durei Advogados, Avenida da Liberdade, Lisboa (2014–Presente).",
+    "publicationsTitle": "Artigos e Publicações Científicas",
+    "pub1Title": "Das Portugiesische Arbeitsrecht (2007, 6.ª Edição)",
+    "pub1Meta": "Coautor com Berthold Grandy. Lisboa: Deutsch-Portugiesische Industrie- und Handelskammer.",
+    "pub2Title": "O Contrato de Agência (Dissertação de Mestrado, 2012)",
+    "pub2Meta": "Repositório Científico do ISCTE-IUL Business School, Lisboa.",
+    "pub2LinkText": "Aceder ao PDF da Dissertação Académica",
+    "linkedinBtn": "Perfil Profissional no LinkedIn",
+    "emailBtn": "E-mail Oficial Ordem dos Advogados"
   },
   "Credentials": {
     "barAssoc": "Advogado Inscrito na Ordem dos Advogados",
     "licence": "Cédula Profissional Nº 44324L",
-    "languages": "Representação Multilingue (Português / Inglês / Alemão)",
+    "languages": "Representação Multilingue (Português / Inglês / Alemão / Neerlandês)",
     "location": "Escritório na Avenida da Liberdade",
     "notaryDirect": "Integração Notarial e Registo Predial"
   },
@@ -45,7 +72,7 @@
     "card3Title": "Riscos no CPCV (Contrato Promessa)",
     "card3Desc": "O incumprimento de um CPCV implica a perda da totalidade do sinal prestado ou a devolução em dobro.",
     "card4Title": "Barreiras Linguísticas e Notariais",
-    "card4Desc": "As escrituras notariais possuem validade legal em português. Contar com um advogado fluente em Inglês, Alemão e Português garante total clareza jurídica."
+    "card4Desc": "As escrituras notariais possuem validade legal em português. Contar com um advogado fluente em Inglês, Alemão, Neerlandês e Português garante total clareza jurídica."
   },
   "Expertise": {
     "tagline": "Advocacia Especializada",

@@ -1,5 +1,6 @@
 import { Footer } from '@/components/layout/footer';
 import { Navbar } from '@/components/layout/navbar';
+import { AboutSection } from '@/components/sections/about-section';
 import { ExpertiseBentoGrid } from '@/components/sections/expertise-bento';
 import { HeroSection } from '@/components/sections/hero-section';
 import { LeadCTASection } from '@/components/sections/lead-cta-section';
@@ -15,6 +16,7 @@ export default async function HomePage() {
       <Navbar />
       <HeroSection />
       <TrustBadges />
+      <AboutSection />
       <PainPointsSection />
       <ExpertiseBentoGrid />
       <ProcessTimeline />

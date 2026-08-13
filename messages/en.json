@@ -4,6 +4,7 @@
     "description": "Premier real estate law firm in Lisbon, Portugal. Specialized in property acquisition due diligence, notary deeds, tax safeguards, succession, and foreign investor legal protection."
   },
   "Nav": {
+    "about": "About Larry",
     "practiceAreas": "Practice Areas",
     "whyLarry": "Why Larry",
     "process": "Acquisition Roadmap",
@@ -16,21 +17,47 @@
     "badge": "Ordem dos Advogados Reg. Nº 44324L · Lisbon, Portugal",
     "titleLine1": "Protecting Your Real Estate Investments in Portugal",
     "titleLine2": "With Unwavering Legal Precision.",
-    "subtitle": "Navigating complex Portuguese property laws, due diligence, tax structures, and notarials. Multilingual legal representation in English, German, and Portuguese for international investors & home buyers.",
+    "subtitle": "Navigating complex Portuguese property laws, due diligence, tax structures, and notarials. Multilingual legal representation in English, German, Dutch, and Portuguese for international investors & home buyers.",
     "ctaPrimary": "Request Property Legal Consult",
     "ctaSecondary": "Explore Practice Areas",
     "stat1Value": "€150M+",
     "stat1Label": "Real Estate Deals Secured",
     "stat2Value": "100%",
     "stat2Label": "Title & Lien Clear Rate",
-    "stat3Value": "3",
-    "stat3Label": "Fluent Languages (EN/DE/PT)",
+    "stat3Value": "4",
+    "stat3Label": "Fluent Languages (EN/DE/NL/PT)",
     "lisbonTag": "Av. da Liberdade 3, 3º, Lisbon"
+  },
+  "About": {
+    "tagline": "Senior Legal Counsel",
+    "title": "About Larry Herbert Gershon Durei",
+    "subtitle": "Registered with the Ordem dos Advogados Portugueses since 2006. Combining international academic training across Portugal, Holland, and Brazil with multi-jurisdictional commercial expertise.",
+    "badgeBar": "Registered Lawyer · Ordem dos Advogados Portugueses (2006)",
+    "overviewText": "Larry Durei is an accomplished real estate and corporate attorney based in Avenida da Liberdade, Lisbon. Fluent in German, Dutch, English, and Portuguese, he specializes in high-ticket property transactions, due diligence, cross-border estate planning, and commercial contracts.",
+    "expandBtn": "View Full Academic & Professional Biography",
+    "collapseBtn": "Collapse Biography Details",
+    "academicTitle": "Academic Background & Degrees",
+    "acad1": "Licenciatura (LL.B.) in Law — Faculdade de Direito da Universidade de Lisboa (2004), International & Community Sciences.",
+    "acad2": "Erasmus Exchange Scholar — Faculdade de Direito de Curitiba (Paraná, Brazil).",
+    "acad3": "Postgraduate Degree in Environmental Law — Faculdade de Direito da Universidade de Lisboa (2009).",
+    "acad4": "Master's Degree (LL.M.) in Corporate & Commercial Law — ISCTE-IUL Business School, Lisbon (2012).",
+    "careerTitle": "Professional Experience & Career",
+    "car1": "Legal & Tax Advisor — Portuguese-German Chamber of Commerce and Industry (AHK Portugal, 2004–2007).",
+    "car2": "Head of the Legal Department — APAMB (Portuguese Association for Environmental Inspection and Prevention, 2007–2014).",
+    "car3": "Senior Managing Counsel — Larry Durei Law Office, Avenida da Liberdade, Lisbon (2014–Present).",
+    "publicationsTitle": "Published Academic Treatises",
+    "pub1Title": "Das Portugiesische Arbeitsrecht (2007, 6th Ed.)",
+    "pub1Meta": "Co-author with Berthold Grandy. Lisbon: Deutsch-Portugiesische Industrie- und Handelskammer.",
+    "pub2Title": "O Contrato de Agência (Master's Dissertation, 2012)",
+    "pub2Meta": "ISCTE-IUL Business School Repository, Lisbon.",
+    "pub2LinkText": "Access Academic Dissertation PDF",
+    "linkedinBtn": "LinkedIn Professional Profile",
+    "emailBtn": "Direct Official Email"
   },
   "Credentials": {
     "barAssoc": "Ordem dos Advogados Certified",
     "licence": "License Nº 44324L",
-    "languages": "Multilingual Representation (EN / DE / PT)",
+    "languages": "Multilingual Representation (EN / DE / NL / PT)",
     "location": "Avenida da Liberdade Law Office",
     "notaryDirect": "Direct Notary & Land Registry Integration"
   },
@@ -45,7 +72,7 @@
     "card3Title": "CPCV Penalty Risks",
     "card3Desc": "Under Portuguese law, defaulting on a Promissory Contract (CPCV) can result in losing 100% of your deposit or double penalty damages.",
     "card4Title": "Language & Notary Barriers",
-    "card4Desc": "Notarial deeds (Escritura) are legally binding only in Portuguese. Having a lawyer fluent in English, German, and Portuguese prevents misinterpretation."
+    "card4Desc": "Notarial deeds (Escritura) are legally binding only in Portuguese. Having a lawyer fluent in German, Dutch, English, and Portuguese prevents misinterpretation."
   },
   "Expertise": {
     "tagline": "Specialized Legal Counsel",
