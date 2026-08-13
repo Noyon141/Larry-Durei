@@ -1,9 +1,9 @@
 'use client';
 
-import { AnimatePresence, motion } from 'framer-motion';
-import { Menu, Phone, Scale, X } from 'lucide-react';
-import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
+import { useLocale, useTranslations } from 'next-intl';
+import { Menu, Phone, Scale, X } from 'lucide-react';
+import { AnimatePresence, motion } from 'framer-motion';
 
 export function Navbar() {
   const t = useTranslations('Nav');
@@ -11,7 +11,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeLocale, setActiveLocale] = useState<'en' | 'pt'>(
-    contextLocale === 'en' ? 'en' : 'pt',
+    contextLocale === 'en' ? 'en' : 'pt'
   );
 
   useEffect(() => {
@@ -80,7 +80,7 @@ export function Navbar() {
         scrolled ? 'glass-nav py-3' : 'bg-gradient-to-b from-[#0B0F17]/90 to-transparent py-5'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4 xl:gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
         {/* Brand Logo Container */}
         <a href={`/${activeLocale}`} className="flex items-center gap-3 group shrink-0">
           <div className="w-10 h-10 rounded-full bg-[#182030] border border-[#C5A059]/40 flex items-center justify-center group-hover:border-[#C5A059] transition-colors shrink-0">
@@ -97,12 +97,12 @@ export function Navbar() {
         </a>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden xl:flex items-center gap-6 lg:gap-8 shrink-0">
+        <nav className="hidden xl:flex items-center gap-4 2xl:gap-6 shrink-0">
           {navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="text-xs lg:text-sm font-medium text-[#C2C9D6] hover:text-[#E6C875] transition-colors tracking-wide whitespace-nowrap"
+              className="text-xs 2xl:text-sm font-medium text-[#C2C9D6] hover:text-[#E6C875] transition-colors tracking-wide whitespace-nowrap"
             >
               {item.label}
             </a>
@@ -110,7 +110,7 @@ export function Navbar() {
         </nav>
 
         {/* Right Action Controls (Locale Switcher & Contact) */}
-        <div className="hidden sm:flex items-center gap-3 lg:gap-4 shrink-0">
+        <div className="hidden sm:flex items-center gap-3 shrink-0">
           {/* Language Toggle */}
           <div className="flex items-center bg-[#121824] border border-[#C5A059]/40 rounded-full p-1 text-xs shrink-0 shadow-inner">
             <button
@@ -137,16 +137,17 @@ export function Navbar() {
             </button>
           </div>
 
-          {/* Direct Line Phone */}
+          {/* Direct Line Phone Badge */}
           <a
             href="tel:+351961127361"
             className="flex items-center gap-2 text-xs font-semibold text-[#E6C875] hover:text-[#F8F6F0] px-3 py-2 rounded-lg bg-[#182030]/80 border border-[#C5A059]/20 hover:border-[#C5A059]/50 transition-all shrink-0 whitespace-nowrap"
+            title="+351 961 127 361"
           >
             <Phone className="w-3.5 h-3.5 text-[#C5A059]" />
-            <span className="hidden lg:inline">+351 961 127 361</span>
+            <span className="hidden 2xl:inline">+351 961 127 361</span>
           </a>
 
-          {/* Book Consultation Button */}
+          {/* Book Consultation Button (100% Fully Visible) */}
           <a
             href="#consult-form"
             className="px-4 py-2 text-xs font-bold tracking-wide text-[#0B0F17] bg-gradient-to-r from-[#E6C875] to-[#C5A059] hover:from-[#F8F6F0] hover:to-[#E6C875] rounded-full shadow-lg transition-all transform hover:scale-[1.02] active:scale-[0.98] shrink-0 whitespace-nowrap"
@@ -155,9 +156,9 @@ export function Navbar() {
           </a>
         </div>
 
-        {/* Mobile / Tablet Hamburger Toggle */}
+        {/* Mobile / Tablet / Mid-Screen Hamburger Toggle */}
         <div className="flex xl:hidden items-center gap-3 shrink-0">
-          <div className="flex items-center bg-[#121824] border border-[#C5A059]/40 rounded-full p-1 text-xs shrink-0 shadow-inner">
+          <div className="flex items-center bg-[#121824] border border-[#C5A059]/40 rounded-full p-1 text-xs shrink-0 shadow-inner sm:hidden">
             <button
               type="button"
               onClick={() => switchLocale('pt')}
@@ -185,6 +186,7 @@ export function Navbar() {
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 rounded-lg bg-[#182030] text-[#F8F6F0] border border-[#C5A059]/30 shrink-0 cursor-pointer"
+            aria-label="Toggle Navigation Menu"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>

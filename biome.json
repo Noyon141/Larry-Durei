@@ -9,6 +9,7 @@
       "correctness": {
         "noUnusedVariables": "warn"
       },
+      "a11y": "off",
       "style": {
         "useConst": "error"
       }
