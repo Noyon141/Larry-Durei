@@ -1,6 +1,7 @@
 'use client';
 
-import { Mail, MapPin, Phone, Scale, ShieldCheck } from 'lucide-react';
+import { Mail, MapPin, Phone, ShieldCheck } from 'lucide-react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 export function Footer() {
@@ -13,10 +14,15 @@ export function Footer() {
           {/* Brand & Registration Column */}
           <div className="md:col-span-6 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-[#182030] border border-[#C5A059]/40 flex items-center justify-center">
-                <Scale className="w-5 h-5 text-[#C5A059]" />
+              <div className="bg-[#F8F6F0] px-3.5 py-1.5 rounded-xl border border-[#C5A059]/40 shadow-md inline-flex items-center">
+                <Image
+                  src="/images/logo.png"
+                  alt="Larry Durei — Advogado"
+                  width={160}
+                  height={45}
+                  className="h-9 w-auto object-contain"
+                />
               </div>
-              <span className="font-serif text-xl font-bold text-[#F8F6F0]">LARRY DUREI</span>
             </div>
             <p className="text-sm text-[#C2C9D6] font-serif">{t('firmName')}</p>
             <div className="flex items-center gap-2 text-xs font-semibold text-[#E6C875] bg-[#121824] px-3 py-1.5 rounded-md border border-[#C5A059]/20 w-fit">
@@ -31,6 +37,11 @@ export function Footer() {
               Legal Practice
             </h4>
             <ul className="space-y-2 text-xs">
+              <li>
+                <a href="#about" className="hover:text-[#E6C875] transition-colors">
+                  About Larry Durei
+                </a>
+              </li>
               <li>
                 <a href="#expertise" className="hover:text-[#E6C875] transition-colors">
                   Real Estate Acquisitions

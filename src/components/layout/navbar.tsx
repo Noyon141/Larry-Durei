@@ -1,9 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { useLocale, useTranslations } from 'next-intl';
-import { Menu, Phone, Scale, X } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Menu, Phone, X } from 'lucide-react';
+import Image from 'next/image';
+import { useLocale, useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 
 export function Navbar() {
   const t = useTranslations('Nav');
@@ -11,7 +12,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeLocale, setActiveLocale] = useState<'en' | 'pt'>(
-    contextLocale === 'en' ? 'en' : 'pt'
+    contextLocale === 'en' ? 'en' : 'pt',
   );
 
   useEffect(() => {
@@ -81,18 +82,21 @@ export function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4">
-        {/* Brand Logo Container */}
-        <a href={`/${activeLocale}`} className="flex items-center gap-3 group shrink-0">
-          <div className="w-10 h-10 rounded-full bg-[#182030] border border-[#C5A059]/40 flex items-center justify-center group-hover:border-[#C5A059] transition-colors shrink-0">
-            <Scale className="w-5 h-5 text-[#C5A059]" />
-          </div>
-          <div className="flex flex-col shrink-0">
-            <span className="font-serif text-lg sm:text-xl font-bold tracking-tight text-[#F8F6F0] group-hover:text-[#E6C875] transition-colors whitespace-nowrap">
-              LARRY DUREI
-            </span>
-            <span className="text-[10px] tracking-widest text-[#C5A059] uppercase font-semibold whitespace-nowrap">
-              Advogado · OA 44324L
-            </span>
+        {/* Official Brand Logo Container */}
+        <a
+          href={`/${activeLocale}`}
+          className="flex items-center group shrink-0"
+          aria-label="Larry Durei Advogado Home"
+        >
+          <div className="bg-[#F8F6F0] px-3.5 py-1.5 rounded-xl border border-[#C5A059]/40 group-hover:border-[#C5A059] group-hover:shadow-[0_0_20px_rgba(197,160,89,0.25)] transition-all flex items-center shrink-0">
+            <Image
+              src="/images/logo.png"
+              alt="Larry Durei — Advogado | Lawyer | Rechtsanwalt | Advocaat"
+              width={160}
+              height={45}
+              className="h-8 sm:h-9 md:h-10 w-auto object-contain"
+              priority
+            />
           </div>
         </a>
 
@@ -147,7 +151,7 @@ export function Navbar() {
             <span className="hidden 2xl:inline">+351 961 127 361</span>
           </a>
 
-          {/* Book Consultation Button (100% Fully Visible) */}
+          {/* Book Consultation Button */}
           <a
             href="#consult-form"
             className="px-4 py-2 text-xs font-bold tracking-wide text-[#0B0F17] bg-gradient-to-r from-[#E6C875] to-[#C5A059] hover:from-[#F8F6F0] hover:to-[#E6C875] rounded-full shadow-lg transition-all transform hover:scale-[1.02] active:scale-[0.98] shrink-0 whitespace-nowrap"
