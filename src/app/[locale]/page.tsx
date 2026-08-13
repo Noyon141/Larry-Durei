@@ -13,7 +13,7 @@ import { CookieBanner } from '@/components/ui/cookie-banner';
 
 export default async function HomePage() {
   return (
-    <main className="min-h-screen bg-[#0B0F17] text-[#F8F6F0] selection:bg-[#C5A059] selection:text-[#0B0F17]">
+    <main className="min-h-screen w-full max-w-full overflow-x-hidden bg-[#0B0F17] text-[#F8F6F0] selection:bg-[#C5A059] selection:text-[#0B0F17] relative">
       <Navbar />
       <HeroSection />
       <TrustBadges />
